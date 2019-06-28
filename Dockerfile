@@ -1,6 +1,4 @@
-FROM dmonakhov/alpine-fio
-
-MAINTAINER Lee Liu <lee@logdna.com>
+FROM openebs/alpine-fio
 
 VOLUME /tmp
 WORKDIR /tmp
